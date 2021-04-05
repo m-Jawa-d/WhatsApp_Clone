@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/WhatsApp_Clone/static/css/main.32225e2d.chunk.css",
+    "main.js": "/WhatsApp_Clone/static/js/main.c8927c60.chunk.js",
+    "main.js.map": "/WhatsApp_Clone/static/js/main.c8927c60.chunk.js.map",
+    "runtime-main.js": "/WhatsApp_Clone/static/js/runtime-main.e5d88d5d.js",
+    "runtime-main.js.map": "/WhatsApp_Clone/static/js/runtime-main.e5d88d5d.js.map",
+    "static/css/2.d565e0ea.chunk.css": "/WhatsApp_Clone/static/css/2.d565e0ea.chunk.css",
+    "static/js/2.d6d1b0de.chunk.js": "/WhatsApp_Clone/static/js/2.d6d1b0de.chunk.js",
+    "static/js/2.d6d1b0de.chunk.js.map": "/WhatsApp_Clone/static/js/2.d6d1b0de.chunk.js.map",
+    "index.html": "/WhatsApp_Clone/index.html",
+    "static/css/2.d565e0ea.chunk.css.map": "/WhatsApp_Clone/static/css/2.d565e0ea.chunk.css.map",
+    "static/css/main.32225e2d.chunk.css.map": "/WhatsApp_Clone/static/css/main.32225e2d.chunk.css.map",
+    "static/js/2.d6d1b0de.chunk.js.LICENSE.txt": "/WhatsApp_Clone/static/js/2.d6d1b0de.chunk.js.LICENSE.txt",
+    "static/media/1_way.5103a879.mp4": "/WhatsApp_Clone/static/media/1_way.5103a879.mp4",
+    "static/media/Asim.773fb7c1.jpg": "/WhatsApp_Clone/static/media/Asim.773fb7c1.jpg",
+    "static/media/Latif.df090149.jpg": "/WhatsApp_Clone/static/media/Latif.df090149.jpg",
+    "static/media/Message.76575fa0.webp": "/WhatsApp_Clone/static/media/Message.76575fa0.webp",
+    "static/media/Mubashir.3e70de88.jpg": "/WhatsApp_Clone/static/media/Mubashir.3e70de88.jpg",
+    "static/media/Qasim.e6a8ab5a.jpg": "/WhatsApp_Clone/static/media/Qasim.e6a8ab5a.jpg",
+    "static/media/Tanzil.4ad8a1cd.jpg": "/WhatsApp_Clone/static/media/Tanzil.4ad8a1cd.jpg",
+    "static/media/dp.8358a533.jpg": "/WhatsApp_Clone/static/media/dp.8358a533.jpg",
+    "static/media/jawad.bfd6ef9c.jpg": "/WhatsApp_Clone/static/media/jawad.bfd6ef9c.jpg",
+    "static/media/messi.94c064c3.jpg": "/WhatsApp_Clone/static/media/messi.94c064c3.jpg",
+    "static/media/qaid.deea44b3.jpg": "/WhatsApp_Clone/static/media/qaid.deea44b3.jpg",
+    "static/media/startup_logo.ba43ad03.jpg": "/WhatsApp_Clone/static/media/startup_logo.ba43ad03.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e5d88d5d.js",
+    "static/css/2.d565e0ea.chunk.css",
+    "static/js/2.d6d1b0de.chunk.js",
+    "static/css/main.32225e2d.chunk.css",
+    "static/js/main.c8927c60.chunk.js"
+  ]
+}
