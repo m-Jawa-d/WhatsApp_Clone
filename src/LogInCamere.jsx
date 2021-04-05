@@ -13,12 +13,20 @@ function LogInCamere(props) {
     <div className="Camera_main">
       <NavLink to='/Login'>
       <div className="Camera_inner_div">
-        <ArrowBackIcon fontSize='large' style={{ color: '#25D366' }} />
+        <ArrowBackIcon fontSize='large' style={{ color: '#fff'}} />
       </div>
       </NavLink>
+      <div>
     <Camera isFullscreen="true" isMaxResolution="true" className="Camedra"
       onTakePhoto={(dataUri) => { handleTakePhoto(dataUri); }}
-    /></div>
+    />
+    </div>
+    <div className="Cam_div">
+      <p>.</p>
+      <p>.</p>
+      <p>.</p>
+    </div>
+    </div>
     </>
   );
 }

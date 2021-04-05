@@ -40,7 +40,7 @@ body::-webkit-scrollbar {
 }
 .StartupPage_Main_div > h3{
   font-weight: bold;
-  padding-top: 40px;
+  padding-top: 20px;
   color: #075E54;
   text-align: center;
 }
@@ -66,8 +66,10 @@ body::-webkit-scrollbar {
   outline: none!important;
 }
 .StartupPage_last_p{
-  position: fixed;
-  bottom: 0px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  /* position: fixed;
+  bottom: 0px; */
   /* padding-top: 30px; */
   /* font-size: small; */
   /* position: sticky; */
@@ -545,17 +547,34 @@ margin: 3px 5px 3px 6px;
 
 /***************** Camera Ends ****************************/
 .Camera_main{
-  width: 100vw;
-  height: 100vh;
+  width: 100vw !important;
+  height: 100vh!important;
+  margin-top: -58px;
+  background-color: black !important;
+  display: flex;
+  flex-direction: column;
 }
 .Camera_inner_div{
   width: 20vw;
   padding: 10px;
+  width: 100vw;
+  background-color: black;
   /* height: 10px; */
    position: fixed;
   top: 0px;
   /* background-color:#075E54; */
   z-index: 1000!important;
+}
+.Cam_div{
+  background-color: black;
+  margin-top: -10px;
+  /* height: 100px; */
+  position: fixed;
+  bottom: 0px;
+  width: 100vw;
+  z-index: -85;
+
+
 }
 /***************** Camera Ends ****************************/
 

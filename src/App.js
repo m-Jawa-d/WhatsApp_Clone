@@ -44,7 +44,7 @@ function App() {
         <Route exact path="/QasimChat"><QasimChat/></Route>
         <Route exact path="/TanzeelChat"><TanzeelChat/></Route>
         <Route exact path="/PMASChat"><PMASChat/></Route>
-        <Redirect to='/'/>
+        <Redirect exact to='/'/>
 </Switch>
       </div>
   )
