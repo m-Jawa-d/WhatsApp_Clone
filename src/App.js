@@ -2,7 +2,7 @@ import React from 'react'
 import LogIn from './LogIn'
 import NavbarHeader from './NavbarHeader'
 import StartupPage from './StartupPage'
-import { Switch, Route, NavLink } from 'react-router-dom';
+import { Switch, Route, NavLink,Redirect } from 'react-router-dom';
 import Chats from './Chats';
 import Status from './Status';
 import Calls from './Calls';
@@ -23,8 +23,9 @@ import LogInCamere from './LogInCamere';
 
 function App() {
   return (
-    <Switch>
+    
       <div className='App_Main_container'>
+      <Switch>
         <Route exact path="/"> <StartupPage /></Route>
         <Route exact path='/Chats'><div style={{ display: 'flex', flexDirection: 'column' }}> <Chats /> </div></Route>
         <Route exact path='/Status'><div style={{ display: 'flex', flexDirection: 'column' }}> <Status /></div></Route>
@@ -43,9 +44,9 @@ function App() {
         <Route exact path="/QasimChat"><QasimChat/></Route>
         <Route exact path="/TanzeelChat"><TanzeelChat/></Route>
         <Route exact path="/PMASChat"><PMASChat/></Route>
-
+        <Redirect to='/'/>
+</Switch>
       </div>
-    </Switch>
   )
 }
 
